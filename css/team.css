@@ -1,0 +1,26 @@
+.team-person-name {
+    margin-bottom:8px;
+    text-align: center;
+}
+.team-person-position {
+    text-align: center;
+}
+.team {
+    background-color: #F4F4FD;
+}
+.team-cart {
+    background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+}
+.team-list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.team-title{
+    padding-bottom: 72px;
+}
+.team-text-wrapper{
+    padding: 32px 16px;
+}

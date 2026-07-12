@@ -1,0 +1,21 @@
+.hero {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+.hero-title {
+    width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+    margin: 0 auto 48px;
+}
+
+.hero-button {
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;   
+}
+.hero .container {
+    text-align: center;
+}
