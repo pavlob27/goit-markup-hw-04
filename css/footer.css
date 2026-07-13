@@ -31,3 +31,9 @@
 .footer .icon-link{
     border-radius: 20px;
 }
+.footer .social-icons{
+    gap: 16px;
+}
+.footer .icon-link{
+    color: #f4f4fd;
+}

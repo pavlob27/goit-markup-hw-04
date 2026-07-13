@@ -6,7 +6,8 @@
     background-image: linear-gradient(180deg, rgba(46, 47, 66, 0.7) 0%, rgba(46, 47, 66, 0.7) 100%), url(../images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    width: 100%;
     
 }
 .hero-title {
@@ -26,4 +27,5 @@
 }
 .hero .container {
     text-align: center;
+    
 }
