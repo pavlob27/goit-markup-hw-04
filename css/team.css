@@ -1,9 +1,10 @@
 .team-person-name {
-    margin-bottom:8px;
+    padding-bottom:8px;
     text-align: center;
 }
 .team-person-position {
     text-align: center;
+    padding-bottom: 8px;
 }
 .team {
     background-color: #F4F4FD;
@@ -21,6 +22,27 @@
 .team-title{
     padding-bottom: 72px;
 }
-.team-text-wrapper{
+.team-wrapper{
     padding: 32px 16px;
+}
+.social-icons {
+    display: flex;
+    gap: 24px;
+}
+.icon-link {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    color: #F4F4FD;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team .icon-link:hover,
+.team .icon-link:focus{
+    background-color: #404BBF;
 }

@@ -13,3 +13,21 @@
     padding-bottom: 100px;
 
 }
+.sm-text{
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+.footer .container {
+    display: flex;
+}
+.footer .icon-link:hover,
+.footer .icon-link:focus{
+    background-color: #31D0AA;
+}
+.footer-left{
+    margin-right: 120px;
+}
+.footer .icon-link{
+    border-radius: 20px;
+}
