@@ -17,6 +17,7 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    color: #404bbf;
 }
 .header-addres-link{
     display: block;
@@ -49,9 +50,7 @@
     height: 4px;
 
 }
-.header-nav-link.features:active{
-    color: #404BBF;
-}
+
 
 .header-nav-list {
     display: flex;

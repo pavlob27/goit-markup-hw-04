@@ -42,8 +42,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team .icon-link svg{
-    color: #F4F4FD;
+.team .icon-link svg use{
+    fill: #f4f4fd;
 }
 .team .icon-link:hover,
 .team .icon-link:focus{
