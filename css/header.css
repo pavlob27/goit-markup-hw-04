@@ -34,7 +34,11 @@
 .header-addres-link:focus {
     color: #404BBF;
 }
-.header-nav-link.features:active::after{
+
+.header-nav-link.features{
+    position: relative;
+}
+.header-nav-link.features:after{
     content: "";
     position: absolute;
     bottom: 0;
@@ -52,9 +56,7 @@
 .header-nav-list {
     display: flex;
     align-items: center;    
-    gap: 40px;
-    position: relative;
-    
+    gap: 40px;   
 }
 .header-addres-list {
     display: flex;
